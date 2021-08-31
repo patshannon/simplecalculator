@@ -1,0 +1,74 @@
+* {
+	margin: 0;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+		'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h1 {
+	font-size: 3em;
+	line-height: 1.2em;
+}
+p {
+	margin-top: 0.5em;
+	line-height: 1.5em;
+}
+.container {
+	text-align: center;
+	max-width: 1400px;
+	margin: 0 auto;
+}
+.title-wrapper {
+	margin-top: 10vh;
+}
+.calc-wrapper {
+	background-color: lightblue;
+	padding: 40px 20px 20px;
+	max-width: 400px;
+	margin: 0 auto;
+	margin-top: 30px;
+	border-radius: 15px;
+	box-shadow: 5px 10px 30px rgba(18, 18, 41, 0.493);
+}
+.button-wrapper {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	align-items: center;
+	border: none;
+	border-right: 1px solid black;
+	border-bottom: 1px solid black;
+}
+.button {
+	line-height: 75px;
+	font-size: 25px;
+	border: none;
+	border-top: 1px solid black;
+	border-left: 1px solid black;
+}
+.button:hover {
+	background-color: rgba(0, 0, 0, 0.144);
+	transition: 0.3s ease;
+}
+#output {
+	width: 100%;
+	height: 50px;
+	background-color: white;
+	color: black;
+	margin-bottom: 10px;
+	text-align: right;
+	font-size: 25px;
+	line-height: 50px;
+	overflow: auto;
+}
+.output-wrapper {
+	background-color: white;
+	padding: 0 5px;
+	border-radius: 9px;
+}
+#equal {
+	background-color: rgb(93, 93, 223);
+	color: white;
+}
+#equal:hover {
+	background-color: rgb(38, 212, 32);
+	color: rgb(255, 255, 255);
+	transition: 0.3s ease;
+}
